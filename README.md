@@ -34,6 +34,7 @@ Phone number search is done separately by scanning the data file directly since 
 - `Trie.h / .cpp` – the actual Trie logic (insert, search, delete, display)
 - `Contact.h` – defines the Contact structure used in the project.
 - `sample_data.txt` – stores contacts as name/phone pairs, one per line
+## How to run
 
 Compile:
 
