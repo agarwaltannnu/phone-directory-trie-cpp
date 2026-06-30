@@ -1,7 +1,10 @@
 # Phone Directory using Trie (C++)
 
 A console-based phone directory application built in C++ to practice the Trie data structure in a practical setting. The application allows users to add, search, delete, and display contacts while storing them in a text file so the data persists across program runs.
+  
+## Project Preview
 
+![Project Preview](Screenshot%202026-06-30%20164133.png)
 
 ## Why this project
 
