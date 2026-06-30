@@ -37,18 +37,16 @@ Phone number search is done separately by scanning the data file directly since 
 
 ## How to run
 
-## How to run
-
 Compile:
 
 ```bash
-g++ *.cpp -o phonedir
+g++ main.cpp PhoneDirectory.cpp Trie.cpp -o phonedir
 ```
 
 Run (Windows):
 
 ```bash
-phonedir.exe
+.\phonedir.exe
 ```
 
 Run (Linux/macOS):
@@ -57,7 +55,7 @@ Run (Linux/macOS):
 ./phonedir
 ```
 
-`sample_data.txt` needs to be in the same folder, that's where contacts get loaded from and saved back to.
+`sample_data.txt` needs to be in the same folder. It is used to load and save contacts.
 
 ## Things I'd improve if I had more time
 
