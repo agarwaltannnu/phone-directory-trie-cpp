@@ -49,4 +49,4 @@ g++ -o phonedir main.cpp PhoneDirectory.cpp Trie.cpp
 
 ## What I learned
 
-This was my first real use of a Trie outside of textbook examples. Biggest takeaway was realizing how naturally it fits prefix-based search compared to something like a hash map, which is great for exact lookups but useless for "show me everything starting with X."
+Building this project helped me understand how Tries work beyond textbook implementations. It also gave me hands-on experience with file handling, organizing a multi-file C++ project, and applying object-oriented programming to a complete application.
