@@ -28,7 +28,7 @@ Phone number search is done separately by scanning the data file directly since 
 - `main.cpp` – entry point, loads existing contacts and starts the menu
 - `PhoneDirectory.h / .cpp` – handles the menu, file loading, and phone search
 - `Trie.h / .cpp` – the actual Trie logic (insert, search, delete, display)
-- `Contact.h` – small struct for a contact (not heavily used yet, kept for future use)
+- `Contact.h` – defines the Contact structure used in the project.
 - `sample_data.txt` – stores contacts as name/phone pairs, one per line
 
 ## How to run
