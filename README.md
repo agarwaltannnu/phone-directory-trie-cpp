@@ -2,6 +2,7 @@
 
 A console-based phone directory application built in C++ to practice the Trie data structure in a practical setting. The application allows users to add, search, delete, and display contacts while storing them in a text file so the data persists across program runs.
 
+
 ## Why this project
 
 I wanted to build something where a Trie solves a real problem instead of implementing it as an isolated data structure. A phone directory is a natural use case because prefix-based searching is exactly what a Trie is designed for, making lookups more efficient than repeatedly scanning a list of contacts.
@@ -33,8 +34,23 @@ Phone number search is done separately by scanning the data file directly since 
 
 ## How to run
 
+## How to run
+
+Compile:
+
 ```bash
-g++ -o phonedir main.cpp PhoneDirectory.cpp Trie.cpp
+g++ *.cpp -o phonedir
+```
+
+Run (Windows):
+
+```bash
+phonedir.exe
+```
+
+Run (Linux/macOS):
+
+```bash
 ./phonedir
 ```
 
